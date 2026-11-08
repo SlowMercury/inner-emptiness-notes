@@ -46,12 +46,12 @@ footer{border-top:1px solid var(--line);padding-top:22px;display:flex;justify-co
 a{color:inherit;text-underline-offset:4px}
 a:hover{color:#355b35}a:focus-visible{outline:2px solid #355b35;outline-offset:5px}
 @media(max-width:600px){
-body{font-size:17px;line-height:1.7}main{padding:38px 22px 30px}h1{font-size:40px}header{margin-bottom:25px}.eyebrow{font-size:10px;letter-spacing:.12em}
+body{font-size:17px;line-height:1.7}main{padding:38px 22px 30px}h1{font-size:clamp(32px,10.25vw,40px)}header{margin-bottom:25px}.eyebrow{font-size:10px;letter-spacing:.12em}
 article>p:first-child{font-size:18px}h2{font-size:28px;margin-top:38px}
 .hero{margin:0 -22px 38px}.hero img{border-radius:0}
 .diagram{padding:23px 18px}.cycle{grid-template-columns:1fr;gap:26px;max-width:240px;margin:auto}.cycle li{border-radius:4px;min-height:62px}.cycle li br{display:none}.cycle li:not(:last-child):after{content:"↓";top:100%;right:calc(50% - 7px);height:26px;line-height:26px}
 .journey-flow{grid-template-columns:1fr;gap:10px}.journey-flow>div{padding:14px}.transition{font-size:12px}.return{font-size:12px}
-blockquote{font-size:24px;padding-left:20px}footer{flex-direction:column;gap:12px}
+blockquote{font-size:24px;padding-left:20px}footer{flex-direction:column;gap:12px}footer a{display:flex;align-items:center;min-height:44px}
 }
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 @media print{body{background:#fff;color:#000}main{padding:0}.hero{max-width:600px;margin:25px auto}h2{break-after:avoid}.diagram,blockquote{break-inside:avoid}}
@@ -62,7 +62,7 @@ blockquote{font-size:24px;padding-left:20px}footer{flex-direction:column;gap:12p
 <header><div class="eyebrow">Размышление о жизни · 3 минуты</div><h1>Философия<br>внутренней пустоты<br><em>простыми словами</em></h1></header>
 <article><p>Иногда всё вроде бы хорошо, а внутри остаётся чувство: чего-то не хватает. В этой философии оно называется <strong>внутренним вакуумом</strong>. Главная мысль проста: нам не обязательно полностью избавиться от этого чувства, чтобы жить, любить и замечать хорошее.</p>
 <p>Это взгляд на жизнь и повод для размышления, а не научная теория.</p>
-<figure class="hero"><img src="assets/quiet-life.png" width="1752" height="897" alt="Человек на скамейке среди деревьев смотрит на открытый пейзаж"></figure>
+<figure class="hero"><picture><source type="image/webp" srcset="assets/quiet-life-880.webp 880w, assets/quiet-life.webp 1752w" sizes="(max-width:600px) 100vw, (max-width:900px) calc(100vw - 72px), 828px"><img src="assets/quiet-life.png" width="1752" height="897" fetchpriority="high" decoding="async" alt="Человек на скамейке среди деревьев смотрит на открытый пейзаж"></picture></figure>
 <h2><span class="section-number">01</span>Почему нам всё время чего-то хочется</h2>
 <p>Мы ищем отношения, деньги, признание, новые места и впечатления. За разными желаниями могут стоять похожие потребности: чувствовать себя в безопасности, нужным, свободным.</p>
 <p>Получив желаемое, мы радуемся. Потом привыкаем — и порой снова чего-то хотим. В этой концепции ощущение нехватки может подталкивать нас искать, узнавать и создавать.</p>
